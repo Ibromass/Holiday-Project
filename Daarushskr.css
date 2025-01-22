@@ -62,7 +62,8 @@ ul {
 
 .first {
     background: radial-gradient(#fff, #dda);
-    padding: 300px 7%;
+    padding-top: 100px;
+    padding-bottom: 100px;
     text-align: center;
    
 }
@@ -153,7 +154,7 @@ h2 {
     
 }
 
-.Contac {
+.Contac{
     
     padding: auto;
     background: radial-gradient(#fff, #dda);
@@ -193,8 +194,11 @@ h2 {
 
 .homediv {
     display: grid;
-    grid-template-columns: 19% 19%;
+    display: flex;
     gap: 500px;
+    justify-content: space-between;
+    grid-template-columns: 19% 19%;
+    gap: 100px;
    
     
 }
@@ -256,14 +260,14 @@ h2 {
         a {
             color: rgb(0, 0, 0);
         }
-        .Portfolio {
+        .Portfolio{
             display:block;
             grid-template-columns: 19% 19% 19% 19% 19%;
             gap: 20px;
             justify-content: center;
             
         }
-        .Bi {
+        .Bi{
             display: block;
             grid-template-columns: 19% 19% 19%;
             gap: 150px;
@@ -271,7 +275,7 @@ h2 {
             
 
     }
-    .box {
+    .box{
         display: block;
         grid-template-columns: 19% 19% 19% 19%;
         gap: 70px;
